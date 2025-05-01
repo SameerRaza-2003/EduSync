@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Profile</title>
+</head>
+<body>
+    <h1>Welcome to Your Profile</h1>
+
+    {% if user.is_authenticated %}
+        <p>Logged in as: {{ user.username }}</p>
+        <p>Email: {{ user.email }}</p>
+    {% else %}
+        <p>You are not logged in.</p>
+    {% endif %}
+</body>
+</html>
