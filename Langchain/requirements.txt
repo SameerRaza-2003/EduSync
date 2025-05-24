@@ -1,0 +1,21 @@
+# Core
+streamlit
+python-dotenv
+
+# Google Auth & APIs
+google-api-python-client
+google-auth
+google-auth-oauthlib
+google-auth-httplib2
+google-api-core
+googleapis-common-protos
+
+# LangChain & Gemini
+langchain
+langchain-community
+langchain-google-genai==2.1.4
+google-generativeai
+google-ai-generativelanguage>=0.6.18,<0.7.0
+
+# Utilities
+pydantic>=2.0
